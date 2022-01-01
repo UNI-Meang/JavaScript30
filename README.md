@@ -33,3 +33,10 @@
 1. [Find Keycode](http://keycode.info/)
 
 2. [Unsplash](https://unsplash.com/)
+
+
+
+### To Do 
+
+1. removeStyle 
+2. Why. Code is added with 32
