@@ -6,7 +6,7 @@
 ### About
 
 ----- 
-Build 30 things in 30 days with plain JavaScript; no frameworks, libraries, etc.
+**Build 30 things in 30 days with plain JavaScript; no frameworks, libraries, etc**
 
 - This Course created by the amazing [Wes Bos.](https://github.com/wesbos)
 - Original Starter Files + Completed solutions for the JavaScript 30 Day Challenge can be found [here](https://github.com/wesbos/JavaScript30).
