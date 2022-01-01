@@ -1,6 +1,6 @@
 # JavaScript30 - 30 Day JavaScript Challenge
 
-![img/]
+
 
 ### About
 
