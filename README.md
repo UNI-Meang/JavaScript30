@@ -1,6 +1,7 @@
 # JavaScript30 - 30 Day JavaScript Challenge
 
 
+![JavaScript 30](https://user-images.githubusercontent.com/82393165/147852440-d2d65daf-6ac9-44e6-a9f3-7fc264e93f81.png)
 
 ### About
 
