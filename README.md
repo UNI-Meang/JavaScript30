@@ -1,15 +1,18 @@
 # JavaScript30 - 30 Day JavaScript Challenge
 
-![img/]
+
+![JavaScript 30](https://user-images.githubusercontent.com/82393165/147852440-d2d65daf-6ac9-44e6-a9f3-7fc264e93f81.png)
 
 ### About
 
-Build 30 things in 30 days with plain JavaScript; no frameworks, libraries, etc.
+----- 
+**Build 30 things in 30 days with plain JavaScript; no frameworks, libraries, etc**
 
 - This Course created by the amazing [Wes Bos.](https://github.com/wesbos)
 - Original Starter Files + Completed solutions for the JavaScript 30 Day Challenge can be found [here](https://github.com/wesbos/JavaScript30).
 
 ### Tracking
+----
 
 | Day | Challenge | Took On (Updating)|
 | --- | --- | --- |
@@ -25,6 +28,7 @@ Build 30 things in 30 days with plain JavaScript; no frameworks, libraries, etc.
 | 10 | Hold Shift and Check Checkboxes | Jan, 2022 |
 
 ### Resource
+-----
 
 1. [Find Keycode](http://keycode.info/)
 
