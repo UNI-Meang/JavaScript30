@@ -17,15 +17,16 @@
 | Day | Challenge | Took On (Updating)|
 | --- | --- | --- |
 | 1 | CSS Drum Kit | 1st Jan, 2022 |
-| 2 | Array Cardio 1 |  Jan, 2022 |
-| 3 | Flex Panel Gallery | Jan, 2022 |
-| 4 | Type Ahead| Jan, 2022 |
-| 5 | Array Cardio 2 | Jan, 2022 |
-| 6 | Flex Panel Gallery | Jan, 2022 |
-| 7 | Type Ahead | Jan, 2022 |
-| 8 | Fun with HTML5 Canvas | Jan, 2022 |
-| 9 | Dev Tools Domination | Jan, 2022 |
-| 10 | Hold Shift and Check Checkboxes | Jan, 2022 |
+| 2 | Momentum App|  4th-5th Jan, 2022 |
+| 3 | Array Cardio 1 |  Jan, 2022 |
+| 4 | Flex Panel Gallery | Jan, 2022 |
+| 5 | Type Ahead| Jan, 2022 |
+| 6 | Array Cardio 2 | Jan, 2022 |
+| 7 | Flex Panel Gallery | Jan, 2022 |
+| 8 | Type Ahead | Jan, 2022 |
+| 9 | Fun with HTML5 Canvas | Jan, 2022 |
+| 10 | Dev Tools Domination | Jan, 2022 |
+| 11 | Hold Shift and Check Checkboxes | Jan, 2022 |
 
 ### Resource
 -----
