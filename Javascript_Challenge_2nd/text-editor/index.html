@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text editor</title>
+    <style>
+        textarea{
+            background-color:yellowgreen;
+            border: 4px solid green;
+            border-radius: 5px;
+            color: black;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <textarea id="memo" cols="30" rows="10" placeholder="오늘의 메모를 입력하세요!"></textarea>
+    <br>
+    <button onclick="localStorage.removeItem('memo'); memo.value=''">Clear</button>
+    <button class="show-memo">Enter</button>
+    <script>
+        memo.value = localStorage.getItem('memo');
+        memo.oninput = () => {
+            localStorage.setItem('memo', memo.value)
+        };
+    </script>
+</body>
+</html>
