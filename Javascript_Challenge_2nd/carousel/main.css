@@ -1,16 +1,22 @@
+body {
+    background-color: rgb(179, 152, 152);
+}
 li {
     list-style-type: none;
 }
-
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
 .slide-wrapper {
     position: relative;
     width: 660px;
+    height: 300px;
     margin: 0 auto;
-    height: 200px;
+    margin-top: 50px;
     overflow: hidden;
-    margin-left: 60px;
+    /* margin-left: 60px; */
 }
-
 .slides {
     position: absolute;
     left: 0;
@@ -22,24 +28,29 @@ li {
 .slides li {
     width: 200px;
     height: 200px;
-    background-color: aquamarine;
+    background-color: rgb(56, 112, 93);
     float: left;
     text-align: center;
+    color: white;
 }
 .slides li:not(:last-child) {
     margin-right: 30px;
 }
 .controls {
-    width: 660px;
     display: flex;
     text-align: center;
-    margin-top: 50px;
 }
 .controls .prev, .next {
     position: absolute;
-    top: 25%;
+    top: 32%;
+    border: none;
+    background-color: black;
+    color: wheat;
     cursor: pointer;
 }
+.controls .prev {
+    left: 18%;
+}
 .controls .next {
-    left: 68%;
+    left: 78%;
 }
