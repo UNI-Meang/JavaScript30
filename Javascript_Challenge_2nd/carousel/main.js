@@ -23,6 +23,7 @@ const slides = document.querySelector('.slides'),
             slides.prepend(cloneSlide);
         }
         totalWidth();
+        setInitialPosition();
     }
 
     //원본 li + clone li 갯수의 합을 구해서 ul의 너비로 지정해주는 함수
@@ -34,3 +35,8 @@ const slides = document.querySelector('.slides'),
     slides.style.width = newWidth;
     }
 
+    //기본 값으로 보여지는 화면 세팅 (원본 li가 보여지도록 원본의 총 너비 값 만큼 왼쪽으로 이동)
+    function setInitialPosition() {
+        const initialTranslateValue = -(slideWidth + slideMargin) * slideCount;
+        slides.style.transform = 'translateX(' + initialTranslateValue + 'px)';
+    }
