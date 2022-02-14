@@ -1,11 +1,12 @@
 const slides = document.querySelector('.slides'),
         slide = document.querySelectorAll('.slides li'),
-        currentIndex = 0,
         slideCount = slide.length,
         slideWidth = 200,
         slideMargin = 30,
-        BtnPrev = document.querySelector('.prev'),
-        BtnNext = document.querySelector('.next');
+        prevBtn = document.querySelector('.prev'),
+        nextBtn = document.querySelector('.next');
+
+    let currentIndex = 0;
 
     cloneList();
 
@@ -24,8 +25,11 @@ const slides = document.querySelector('.slides'),
         }
         totalWidth();
         setInitialPosition();
+        //원본 li값이 중앙으로 위치한 뒤에 animated 함수 실행 (li들이 이동하는 걸 숨기는 기능)
+        setTimeout(function(){
+            slides.classList.add('animated');
+        }, 100);
     }
-
     //원본 li + clone li 갯수의 합을 구해서 ul의 너비로 지정해주는 함수
     function totalWidth() {
     const currentSlides = document.querySelectorAll('.slides li');
@@ -39,4 +43,32 @@ const slides = document.querySelector('.slides'),
     function setInitialPosition() {
         const initialTranslateValue = -(slideWidth + slideMargin) * slideCount;
         slides.style.transform = 'translateX(' + initialTranslateValue + 'px)';
+    }
+    
+    //이동 btn 이벤트 추가
+    prevBtn.addEventListener('click', function(){
+        moveSlide(currentIndex - 1);
+    });
+    nextBtn.addEventListener('click', function(){
+        moveSlide(currentIndex + 1);
+    });
+
+    function moveSlide(num){
+        slides.style.left = -num * (slideWidth + slideMargin) + 'px';
+        currentIndex = num;
+        // clickCount(slideCount)누를 때 마다의 현재 list의 index 확인해보기 => 마지막 index의 경우 빈 화면 출력
+        // console.log(currentIndex, slideCount);
+        //마지막 인덱스(li)의 값이 클릭한 수와 일치하면 == 마지막 li이고 
+        //이 때, user몰래 li를 다시 원본으로 돌려준다. 
+        if(currentIndex == slideCount) {
+            setTimeout(function(){
+                slides.classList.remove('animated');
+                slides.style.left = '0px';
+                currentIndex = 0;
+            }, 500);
+            setTimeout(function(){
+                slides.classList.add('animated');
+            }, 600);
+        }
+
     }
