@@ -22,4 +22,15 @@ const slides = document.querySelector('.slides'),
             cloneSlide.classList.add('clone');
             slides.prepend(cloneSlide);
         }
+        totalWidth();
     }
+
+    //원본 li + clone li 갯수의 합을 구해서 ul의 너비로 지정해주는 함수
+    function totalWidth() {
+    const currentSlides = document.querySelectorAll('.slides li');
+    const newSlideCount = currentSlides.length;
+
+    const newWidth = (slideWidth + slideMargin) * newSlideCount - slideMargin +'px';
+    slides.style.width = newWidth;
+    }
+
