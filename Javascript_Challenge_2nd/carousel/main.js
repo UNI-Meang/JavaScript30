@@ -58,9 +58,9 @@ const slides = document.querySelector('.slides'),
         currentIndex = num;
         // clickCount(slideCount)누를 때 마다의 현재 list의 index 확인해보기 => 마지막 index의 경우 빈 화면 출력
         // console.log(currentIndex, slideCount);
-        //마지막 인덱스(li)의 값이 클릭한 수와 일치하면 == 마지막 li이고 
+        // next btn의 endpoint의 값이((마지막 인덱스) 클릭한 수와 일치하면 (총 인덱스 5개, 클릭 5번)
         //이 때, user몰래 li를 다시 원본으로 돌려준다. 
-        if(currentIndex == slideCount) {
+        if(currentIndex == slideCount || currentIndex == -slideCount) {
             setTimeout(function(){
                 slides.classList.remove('animated');
                 slides.style.left = '0px';
@@ -70,5 +70,4 @@ const slides = document.querySelector('.slides'),
                 slides.classList.add('animated');
             }, 600);
         }
-
     }
