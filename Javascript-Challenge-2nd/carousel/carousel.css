@@ -42,7 +42,7 @@ h1 {
 }
 .controls .prev, .next {
     position: absolute;
-    top: 32%;
+    top: 35%;
     border: none;
     background-color: black;
     color: wheat;

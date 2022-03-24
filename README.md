@@ -39,5 +39,4 @@
 
 ### To Do 
 
-1. removeStyle 
-2. Why. Code is added with 32
+
