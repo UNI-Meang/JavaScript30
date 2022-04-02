@@ -48,6 +48,14 @@
             filter: blur(var(--blur));
         }
     </style>
+    <script>
+        const inputs = document.querySelectorAll('.controls input');
 
+        function handleChange() {
+            console.log(this.value);
+        }
+        inputs.forEach(input => input.addEventListener('change', handleChange));
+        // inputs.forEach(input => input.addEventListener('mouseover', handleChange));
+    </script>
 </body>
 </html>
