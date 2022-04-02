@@ -20,6 +20,13 @@
     <img src="./canada-g50d0718c7_1920.jpg" alt="image">
 
     <style>
+        :root {
+            --base: yellow;
+            --spacing: 10px;
+            --blur: 10px;
+        }
+
+
         body {
             text-align: center;
         }
@@ -33,9 +40,14 @@
         .controls {
             margin-bottom: 50px;
         }
+
         img {
             width: 500px;
+            padding: var(--spacing);
+            background-color: var(--base);
+            filter: blur(var(--blur));
         }
     </style>
+
 </body>
 </html>
