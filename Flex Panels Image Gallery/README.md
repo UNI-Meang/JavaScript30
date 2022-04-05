@@ -14,5 +14,4 @@
 # TODO
 
 ## 1) 옆 panel click 시 기존 panel event out
-
 ## 2) Make it responsive smaller screens
