@@ -20,7 +20,7 @@
 | 2 | Momentum App|  4th-5th Jan, 2022 |
 | 3 | [CSS variable](https://uni-meang.github.io/JavaScript30/Playing%20with%20CSS%20variables%20and%20JS/)| Apr 2, 2022|
 | 3 | Array Cardio 1 |  Jan, 2022 |
-| 4 | Flex Panel Gallery | Jan, 2022 |
+| 4 | [Flex Panel Gallery](https://uni-meang.github.io/JavaScript30/Flex%20Panels%20Image%20Gallery/) | Jan, 2022 |
 | 5 | Type Ahead| Jan, 2022 |
 | 6 | Array Cardio 2 | Jan, 2022 |
 | 7 | Flex Panel Gallery | Jan, 2022 |
