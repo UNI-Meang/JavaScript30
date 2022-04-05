@@ -8,6 +8,38 @@
 </head>
 <body>
     <style>
+        html {
+            box-sizing: border-box;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background: #ffc600;
+            font-size: 20px;
+            font-weight: 200;
+        }
+        body {
+            margin: 0;
+        }
+        .panels {
+            min-height: 100vh;
+            overflow: hidden;
+            display: flex;
+        }
+        .panel {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            background: #6B0F9c;
+            color: white;
+            box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.1);
+            font-size: 20px;
+            flex: 1;
+            background-size: cover;
+            background-position: center;
+        }
+
+
+        
         .panel1 {background-image: url('https://edition.cnn.com/interactive/travel/best-beaches/baia-do-sancho/images/photo1x05.jpg');}
         .panel2 {background-image: url('https://edition.cnn.com/interactive/travel/best-beaches/nungwi/images/image1.jpg');}
         .panel3 {background-image: url('https://edition.cnn.com/interactive/travel/best-beaches/playa-rincon/images/image1.jpg');}
@@ -15,27 +47,27 @@
         .panel5 {background-image: url('https://edition.cnn.com/interactive/travel/best-beaches/nyang-nyang/images/image1.jpg');}
     </style>
     <div class="panels">
-        <div class="panel panels1">
+        <div class="panel panel1">
             <p>The best beaches to visit in</p>
             <p>January</p>
             <p>Baia do Sancho, Brazil🇧🇷</p>
         </div>
-        <div class="panel panels2">
+        <div class="panel panel2">
             <p>The best beaches to visit in</p>
             <p>February</p>
             <p>Nungwi, Tanzania🇹🇿</p>
         </div>
-        <div class="panel panels3">
+        <div class="panel panel3">
             <p>The best beaches to visit in</p>
             <p>March</p>
             <p>Playa Rincon, Dominician Republic🇩🇴</p>
         </div>
-        <div class="panel panels4">
+        <div class="panel panel4">
             <p>The best beaches to visit in</p>
             <p>April</p>
             <p>Playa Paraiso, Cuba 🇨🇺</p>
         </div>
-        <div class="panel panels5">
+        <div class="panel panel5">
             <p>The best beaches to visit in</p>
             <p>May</p>
             <p>Nyang Nyang, Bali🇮🇩</p>
