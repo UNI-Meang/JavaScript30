@@ -17,6 +17,11 @@ function findMatchCities(wordToMatch, cities) {
     });
 }
 
+// population number 콤마 정규식 
+function numberWithCommas(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+}
+
 // filter 결과값 display 해주기
 function displayMatches() {
     const matchArray = findMatchCities(this.value, cities);
@@ -27,7 +32,7 @@ function displayMatches() {
         return `
         <li>
             <span class="name">&{cityName}, ${stateName}</span>
-            <span class="population">${numberwithCommas(place.population)}</span>
+            <span class="population">${numberWithCommas(place.population)}</span>
         </li>
         `;
     }).join('');
