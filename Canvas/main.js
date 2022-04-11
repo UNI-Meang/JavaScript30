@@ -18,3 +18,8 @@ let hue = 120;
 let direction = true;
 
 
+
+canvas.addEventListener('mousemove', draw);
+canvas.addEventListener('mouseup', () => (isDrawing = false));
+canvas.addEventListener('mouseout', () => (isDrawing = false));
+
