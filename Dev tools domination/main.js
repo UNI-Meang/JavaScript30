@@ -46,3 +46,12 @@ friend.forEach(({ name , age})=> {
     console.log(`${name} is ${parseInt(age / 7) } years old in dog years`);
     console.groupEnd(`${name}`);
 }); 
+
+// Timing
+console.time('fetching data');
+fetch('https://api.github.com/users/Mugilan-Codes')
+    .then((res => res.json()))
+    .then((data) => {
+        console.timeEnd('fetching data');
+        console.log(data);
+    });
