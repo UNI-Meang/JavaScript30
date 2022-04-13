@@ -21,3 +21,7 @@ console.error('ERROR!');
 
 // Info
 console.info('😎 This is an info!');
+
+// Testing
+console.log(1 === 1, 'That is True?');
+console.log(1 === 2, 'That is wrong');
