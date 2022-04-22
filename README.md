@@ -25,7 +25,7 @@
 | 7 | [Canvas](https://uni-meang.github.io/JavaScript30/Canvas/) | Apr 11, 2022 |
 | 8 | [Dev tools domination](https://uni-meang.github.io/JavaScript30/Dev%20tools%20domination/) | Apr 12, 2022 |
 | 9 | [Multiple Checkboxes](https://uni-meang.github.io/JavaScript30/Multiple%20Checkboxes/) | Apr 16, 2022 |
-| 10 | [Custom-video-player] | Apr 18, 2022 |
+| 10 | [Custom-video-player](https://uni-meang.github.io/JavaScript30/Custom-video-player/) | Apr 18, 2022 |
 | 11 | [Key Sequence Detection](https://uni-meang.github.io/JavaScript30/Key%20Sequence%20Detection/) | Apr 20, 2022 |
 | 12 | Slide In on Scroll | Apr, 2022 |
 | 13 | Object and Arrays | Apr, 2022 |
