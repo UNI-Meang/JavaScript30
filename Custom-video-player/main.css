@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #7a7a7a;
+    min-height: 100vh;
+    background-size: cover;
+}
+
+.player {
+    max-width: 750px;
+    border: 5px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    position: relative;
+    font-size: 0;
+    overflow: hidden;
+}
