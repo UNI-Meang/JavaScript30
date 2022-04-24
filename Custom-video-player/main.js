@@ -42,3 +42,9 @@ video.addEventListener('progress', handleProgress);
 
 toggle.addEventListener('click', togglePlay);
 
+skipButtons.forEach((btn) => btn.addEventListener('click', skip));
+
+ranges.forEach((range) => range.addEventListener('click', handleRangeUpdate));
+ranges.forEach((range) => range.addEventListener('mousemove', handleRangeUpdate));
+
+
