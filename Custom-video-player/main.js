@@ -30,3 +30,12 @@ function handleProgress(){
     progressBar.style.flexBasis = `${percent}%`;
 }
 
+video.addEventListener('click', togglePlay);
+video.addEventListener('play', updateButton);
+video.addEventListener('pause', updateButton);
+video.addEventListener('progress', handleProgress);
+
+toggle.addEventListener('click', togglePlay);
+
+skipButtons.forEach((btn) => btn.addEventListener('click', skip));
+
