@@ -17,3 +17,39 @@ body {
     font-size: 0;
     overflow: hidden;
 }
+
+.player_video {
+    width: 100%;
+}
+.player_button {
+    background: none;
+    border: 0;
+    line-height: 1;
+    color: white;
+    text-align: center;
+    outline: 0;
+    padding: 0;
+    cursor: pointer;
+    max-width: 50px;
+}
+.player_button:focus{
+    border-color: #ffc600;
+}
+
+.player_slider{
+    width: 10px;
+    height: 30px;
+}
+.player_controls{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    transform: translateY(100%) translate(-5px);
+    transition: all .3s;
+    flex-wrap: wrap;
+    background: rgba(0, 0, 0, 0.1);
+}
+.player:hover .player_controls {
+    transform: translateY(0);
+}
