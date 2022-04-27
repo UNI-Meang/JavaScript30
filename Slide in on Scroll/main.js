@@ -16,3 +16,11 @@ function debounce(func, wait = 20, immediate = true) {
 
 const sliderImages = document.querySelectorAll('.slide-in');
 
+function checkSlide() {
+    sliderImages.forEach(sliderImage => {
+        // image 반이 보여졌을 때
+        const slideInAt = (window.scrollY + window.innerHeight) - sliderImage.height / 2;
+    });
+}
+
+window.addEventListener('scroll', debounce(checkSlide));
