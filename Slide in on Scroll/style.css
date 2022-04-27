@@ -34,12 +34,12 @@ img {
     margin-left: 20px;
 }
 
-/* .slide-in {
+.slide-in {
     opacity: 0;
     transition: all .5s;
-  } */
+} 
 
-/* .align-left.slide-in {
+.align-left.slide-in {
     transform: translateX(-30%) scale(0.95);
 }
 
@@ -50,4 +50,4 @@ img {
 .slide-in.active {
     opacity: 1;
     transform: translateX(0%) scale(1);
-  } */
+} 
