@@ -20,6 +20,10 @@ function checkSlide() {
     sliderImages.forEach(sliderImage => {
         // image 반이 보여졌을 때
         const slideInAt = (window.scrollY + window.innerHeight) - sliderImage.height / 2;
+        // image의 바닥이 보였을 때
+        const imageBottom = sliderImage.offsetTop + sliderImage.height;
+        const isHalfShown = slideInAt > sliderImage.offsetTop;
+        const isNotScrolledPast = window.scrollY < imageBottom;
     });
 }
 
