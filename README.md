@@ -27,7 +27,7 @@
 | 9 | [Multiple Checkboxes](https://uni-meang.github.io/JavaScript30/Multiple%20Checkboxes/) | Apr 16, 2022 |
 | 10 | [Custom-video-player](https://uni-meang.github.io/JavaScript30/Custom-video-player/) | Apr 18, 2022 |
 | 11 | [Key Sequence Detection](https://uni-meang.github.io/JavaScript30/Key%20Sequence%20Detection/) | Apr 20, 2022 |
-| 12 | Slide In on Scroll | Apr, 2022 |
+| 12 | [Slide In on Scroll](https://uni-meang.github.io/JavaScript30/Slide%20in%20on%20Scroll/) | Apr 24, 2022 |
 | 13 | Object and Arrays | Apr, 2022 |
 | 14 | LocalStorage and Event Delegation | Apr, 2022 |
 | 15 | CSS Text Shadow Mouse Move Effect | Apr, 2022 |
