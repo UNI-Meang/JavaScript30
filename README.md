@@ -28,8 +28,8 @@
 | 10 | [Custom-video-player](https://uni-meang.github.io/JavaScript30/Custom-video-player/) | Apr 18, 2022 |
 | 11 | [Key Sequence Detection](https://uni-meang.github.io/JavaScript30/Key%20Sequence%20Detection/) | Apr 20, 2022 |
 | 12 | [Slide In on Scroll](https://uni-meang.github.io/JavaScript30/Slide%20in%20on%20Scroll/) | Apr 24, 2022 |
-| 13 | Object and Arrays | Apr, 2022 |
-| 14 | LocalStorage and Event Delegation | Apr, 2022 |
+| 13 | [Object and Arrays] | Apr 28, 2022 |
+| 14 | [LocalStorage and Event Delegation] | May 2, 2022 |
 | 15 | CSS Text Shadow Mouse Move Effect | Apr, 2022 |
 | 16 | Sorting Band Names without articles | Apr, 2022 |
 | 17 | Tally String Times with Reduce | Apr, 2022 |
