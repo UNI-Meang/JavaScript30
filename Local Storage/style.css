@@ -1,7 +1,7 @@
 .center {
     min-height: 100%;
     width: 100%;
-    background: url(../images/background.jpg) center no-repeat;
+    background: url(./background.jpg) center no-repeat;
     padding: 25px 0;
     background-attachment: fixed;
     background-size: cover;
