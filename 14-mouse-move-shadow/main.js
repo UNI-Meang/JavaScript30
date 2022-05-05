@@ -11,5 +11,10 @@ function shadow(e) {
         y = y + e.target.offsetTop;
     }
 
+    const xWalk = Math.round((x / width * walk) - (walk / 2));
+    const yWalk = Math.round((y / height * walk) - (walk / 2));
+
     
 }
+
+hero.addEventListener('mousemove', shadow);
