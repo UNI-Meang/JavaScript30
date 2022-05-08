@@ -31,7 +31,7 @@
 | 13 | [LocalStorage and Event Delegation](https://uni-meang.github.io/JavaScript30/13-Local-Storage/) | May 2, 2022 |
 | 14 | [CSS Text Shadow Mouse Move Effect](https://uni-meang.github.io/JavaScript30/14-mouse-move-shadow/) | May 4, 2022 |
 | 15 | [Sorting Band Names without articles](https://uni-meang.github.io/JavaScript30/15-sort-without-articles/) | May 6, 2022 |
-| 16 | Tally String Times with Reduce | May, 2022 |
+| 16 | [Tally String Times with Reduce](https://uni-meang.github.io/JavaScript30/16-Adding-up-time-Reduce/) | May 8, 2022 |
 | 17 | Unreal Webcam Fun | May, 2022 |
 | 18 | Native Speech Recognition | May, 2022 |
 | 18 | Native Speech Recognition | May, 2022 |
