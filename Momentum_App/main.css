@@ -1,0 +1,31 @@
+body {
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+    background-size: cover;
+}
+
+body img {
+    opacity: 0.7;
+    z-index: -1;
+}
+
+ul {
+    list-style: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+text-align: center;
+}
+
+span {
+    font-weight: bold;
+    font-size: 1rem;
+}
