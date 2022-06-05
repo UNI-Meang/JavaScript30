@@ -33,8 +33,8 @@
 | 15 | [Sorting Band Names without articles](https://uni-meang.github.io/JavaScript30/15-sort-without-articles/) | May 6, 2022 |
 | 16 | [Tally String Times with Reduce](https://uni-meang.github.io/JavaScript30/16-Adding-up-time-Reduce/) | May 8, 2022 |
 | 17 | [Unreal Webcam Fun](https://uni-meang.github.io/JavaScript30/17-Unreal-Webcam/) | May 9, 2022 |
-| 18 | [Speech Detection](https://uni-meang.github.io/JavaScript30/178-Speech-synthesis/) | May, 2022 |
-| 18 | Native Speech Recognition | May, 2022 |
+| 18 | [Speech Synthesis](https://uni-meang.github.io/JavaScript30/178-Speech-synthesis/) | May, 2022 |
+| 19 | [Speech Detection](https://uni-meang.github.io/JavaScript30/178-Speech-Detection/)  | May, 2022 |
 
 ### Resource
 -----
