@@ -6,15 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event Capture, Propagation, Bubbling and Once</title>
+    <style>
+        div {
+            width: 100%;
+            padding: 100px;
+        }
+
+        .one {
+            background: thistle;
+        }
+
+        .two {
+            background: mistyrose;
+        }
+
+        .three {
+            background: coral;
+        }
+    </style>
 </head>
 
 <body class="bod">
-        <div class="one">
-            <div class="two">
-                <div class="three">
-                </div>
+    <div class="one">
+        <div class="two">
+            <div class="three">
             </div>
         </div>
-    </body>
+    </div>
+</body>
+<script src="./main.js"></script>
 
 </html>
