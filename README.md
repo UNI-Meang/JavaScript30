@@ -36,6 +36,17 @@
 | 18 | [Speech Synthesis](https://uni-meang.github.io/JavaScript30/18-Speech-synthesis/) | May, 2022 |
 | 19 | [Speech Detection](https://uni-meang.github.io/JavaScript30/19-Speech-Detection/)  | May, 2022 |
 | 20 | [Geolocation](https://uni-meang.github.io/JavaScript30/20-Geolocation/)  | May, 2022 |
+| 21 | [Follow Link Highlighter](https://uni-meang.github.io/JavaScript30/21-Follow-Link-Highlighter/)  | June, 2022 |
+| 22 | [Sticky nav](https://uni-meang.github.io/JavaScript30/22-Sticky-nav/)  | June, 2022 |
+| 23 | [Event capture](https://uni-meang.github.io/JavaScript30/23-Event-capture/)  | June, 2022 |
+| 24 | [Stripe follow nav](https://uni-meang.github.io/JavaScript30/24-Stripe-follow-nav/)  | June, 2022 |
+| 25 | [Click and drag](https://uni-meang.github.io/JavaScript30/25-Click-and-drag/)  | June, 2022 |
+| 26 | [Video Speed Controller](https://uni-meang.github.io/JavaScript30/26-Video-Speed-Controller/)  | June, 2022 |
+| 27 | [Countdown timer](https://uni-meang.github.io/JavaScript30/27-Countdown-timer/)  | June, 2022 |
+| 28 | [Whack A Mole](https://uni-meang.github.io/JavaScript30/28-Whack-A-Mole/)  | June, 2022 |
+| 29 | [Array Cardio 01](https://uni-meang.github.io/JavaScript30/29-Array-Cardio-01/)  | June, 2022 |
+| 30 | [Array Cardio 02](https://uni-meang.github.io/JavaScript30/30-Array-Cardio-02/)  | June, 2022 |
+
 
 ### Resource
 -----
