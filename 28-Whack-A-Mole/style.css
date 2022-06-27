@@ -1,12 +1,12 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: 'Amatic SC', cursive;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 h1 {
     text-align: center;
-    font-size: 10rem;
+    font-size: 8rem;
     line-height: 1;
     margin-bottom: 0;
 }
@@ -34,7 +34,7 @@ h1 {
 
 .hole:after {
     display: block;
-    background: url(dirt.svg) bottom center no-repeat;
+    background: url('dirt.svg') bottom center no-repeat;
     background-size: contain;
     content: '';
     width: 100%;
